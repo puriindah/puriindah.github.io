@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seperti Yang Dulu Pernah Di Janjikan Sang Mantan/title>
+    <title>Seperti Yang Dulu Pernah Di Janjikan Sang Mantan<title>
     <style>
         body {
             padding: 0;
