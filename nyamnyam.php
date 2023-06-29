@@ -23,7 +23,7 @@
 <body>
     <div class="sepertidulu">
         <a href="https://rebrand.ly/asiavip" rel="nofollow noreferrer">
-            <img src="sekejap.gif" alt="Sepertidulu Image" id="kembang-api">
+            <img src="https://i.ibb.co/0XnbW1p/GIF-480-x-858-02.gif" alt="Sepertidulu Image" id="kembang-api">
         </a>
     </div>
 
